@@ -33,7 +33,7 @@ const Modal = () => {
         <h1 className="title">Ứng Dụng Nhắn Tin </h1>
         <form onSubmit={handleSubmit}>
           <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} className="input" placeholder="Username" required />
-          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} className="input" placeholder="Password" required />
+          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} autocomplete ="current-password" className="input" placeholder="Password" required />
           <div align="center">
             <button type="submit" className="button">
               <span>Bắt đầu chat! </span>
