@@ -15,7 +15,7 @@ const Modal = () => {
     const authObject = { 'Project-ID': "be002709-e468-4da9-a3be-05e9841b9c03", 'User-Name':username, 'User-Secret':password};
 
     try {
-      await axios.get('https://api.chatengine.io/chats', { headers:authObject});
+      await axios.get('AIzaSyCYFvHkTI48KTUyjGiScNO1wAa5lo9sla0', { headers:authObject});
 
       localStorage.setItem('username', username);
       localStorage.setItem('password', password);
